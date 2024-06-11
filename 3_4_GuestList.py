@@ -61,3 +61,14 @@ print(sorted(locations))
 print(locations)
 # Output: Showing the list in reverse alphabetical order
 print(sorted(locations, reverse=True))
+print(locations)
+locations.reverse()
+print(locations)
+locations.reverse()
+print(locations)
+locations.sort()
+print(locations)
+locations.sort(reverse=True)
+print(locations)
+
+# 3_9_Dinner_Guests.py
