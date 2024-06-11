@@ -50,3 +50,14 @@ del guests[0]
 del guests[0]
 print(guests)
 
+
+# 3_8_Seeing_the_World.py
+
+locations = ['Paris', 'Tokyo', 'New York', 'London', 'Sydney']
+print(locations)
+# Output: This will print the list in alphabetical order
+print(sorted(locations))
+# Output: Showing the list in the orginal state after the sorted() function
+print(locations)
+# Output: Showing the list in reverse alphabetical order
+print(sorted(locations, reverse=True))
