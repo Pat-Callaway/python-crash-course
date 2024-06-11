@@ -72,3 +72,18 @@ locations.sort(reverse=True)
 print(locations)
 
 # 3_9_Dinner_Guests.py
+print(f"I am inviting {len(guests)} guests to dinner.")
+
+# 3_10_Every_Function.py
+mountains = ['Everest', 'K2', 'Kangchenjunga', 'Lhotse', 'Makalu']
+rivers = ['Nile', 'Amazon', 'Yangtze', 'Mississippi', 'Yenisei']
+countries = ['USA', 'China', 'Russia', 'Canada', 'Brazil']  
+cities = ['Tokyo', 'Delhi', 'Shanghai', 'Sao Paulo', 'Mexico City']
+languages = ['English', 'Mandarin', 'Hindi', 'Spanish', 'French']
+
+print(sorted(mountains))
+mountains.sort()
+# print(mountains.sort(reverse=True)) this prints None
+languages.sort(reverse=True)
+print(languages)
+
