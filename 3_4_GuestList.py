@@ -32,6 +32,8 @@ print(f"Hello, {guests[5]}! I am inviting you to dinner.")
 print(f"Hello, {guests[6]}! I am inviting you to dinner.")
 
 #3_7_Shrinking_Guest_List.py
+ # pop() removes the last item in the list
+ # append() adds an item to the end of the list
 
 print("I can only invite two people to dinner.")
 popped_guest = guests.pop()
